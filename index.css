@@ -1,0 +1,59 @@
+/*HEADER*/
+
+.header {
+    color: white;
+    background-color: black;
+    height: 450px;
+}
+.header__ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.header__title {
+    text-align: center;
+}
+
+.header__paragraph {
+    text-align: center;
+}
+
+/*SECCIÓN SKILLS*/
+.skills-section__title {
+    text-align: center;
+}
+
+.skills-section__list {
+    list-style-type: none;
+    text-align: center;
+}
+
+/*SECCIÓN PROYECTOS*/
+.project-section__title {
+    text-align: center;
+}
+
+.project-section__project-name {
+    font-size: 20px;
+}
+
+/*SECCIÓN DE CONTACTO*/
+.footer {
+    background-color: black;
+    height: 200px;
+}
+
+.footer__title {
+    text-align: center;
+    color: white;
+}
+
+.footer__contact-links {
+    text-align: center;
+    list-style-type: none;
+}
+
+.footer__contact-links li, a {
+    text-decoration: none;
+    color: purple;
+}
