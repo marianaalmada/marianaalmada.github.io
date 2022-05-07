@@ -1,51 +1,111 @@
 /*HEADER*/
 
 .header {
-    color: white;
     background-color: black;
     height: 450px;
 }
 .header__ul {
     list-style-type: none;
     text-align: right;
+    padding: 25px 22px 10px 0px;
+}
+
+.header__ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.header__ul li a {
+    color: black;
+}
+
+.header-icon {
+    font-size: 50px;
+    color: white;
 }
 
 .header__title {
     text-align: center;
+    color: white;
 }
 
 .header__paragraph {
     text-align: center;
+    color: white;
 }
 
 /*SECCIÓN SKILLS*/
+
+.skills-section {
+    height: 250px;
+}
+
 .skills-section__title {
     text-align: center;
+    font-size: 30px;
+    margin: 47px 0px 47px 0px;
 }
 
 .skills-section__list {
     list-style-type: none;
-    text-align: center;
+    text-align: center;  
+}
+
+.skills-section__list li {
+    display: inline; 
 }
 
 /*SECCIÓN PROYECTOS*/
+
+.project-section {
+    margin-bottom: 100px;
+}
+
 .project-section__title {
     text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    margin: 0px 0px 75px;
+}
+
+.project-section__link {
+    color: white;
+    background-color: rgb(180, 179, 179);
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+}
+
+.project-section__project {
+    width: 80%;
+    margin: auto;
 }
 
 .project-section__project-name {
     font-size: 20px;
 }
 
+.project-section__descrip {
+    text-align: justify;
+    width: 60%;
+    
+}
+
+.project-section__img {
+    width: 500px;
+}
+
 /*SECCIÓN DE CONTACTO*/
 .footer {
     background-color: black;
-    height: 200px;
+    height: 300px;
 }
 
 .footer__title {
     text-align: center;
     color: white;
+    font-size: 30px;
+    padding: 47px 0px 35px 0px;
+    margin: 0;
 }
 
 .footer__contact-links {
@@ -55,5 +115,5 @@
 
 .footer__contact-links li, a {
     text-decoration: none;
-    color: purple;
+    color: white
 }
