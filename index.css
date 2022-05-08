@@ -61,6 +61,14 @@
     margin-bottom: 100px;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    float: right;
+    /*margin-right: 143px;*/
+}
+
 .project-section__title {
     text-align: center;
     font-size: 30px;
@@ -81,13 +89,13 @@
 }
 
 .project-section__project-name {
-    font-size: 20px;
+    font-size: 23px;
+    margin: 0px;
 }
 
 .project-section__descrip {
+    font-size: 20px;
     text-align: justify;
-    width: 60%;
-    
 }
 
 .project-section__img {
