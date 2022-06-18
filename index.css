@@ -4,15 +4,23 @@
     background-color: black;
     height: 450px;
 }
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 15px;
+}
+
 .header__ul {
     list-style-type: none;
     text-align: right;
-    padding: 25px 22px 10px 0px;
-}
-
-.header__ul li {
-    display: inline;
-    margin: 10px;
+    display: flex;
+    gap: 15px;
 }
 
 .header__ul li a {
@@ -32,27 +40,28 @@
 .header__paragraph {
     text-align: center;
     color: white;
+    margin: 0px 90px 0px 90px;
 }
 
 /*SECCIÓN SKILLS*/
 
 .skills-section {
-    height: 250px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .skills-section__title {
-    text-align: center;
     font-size: 30px;
-    margin: 47px 0px 47px 0px;
 }
 
 .skills-section__list {
-    list-style-type: none;
-    text-align: center;  
-}
-
-.skills-section__list li {
-    display: inline; 
+    list-style-type: none; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 /*SECCIÓN PROYECTOS*/
@@ -61,12 +70,22 @@
     margin-bottom: 100px;
 }
 
+.project-section__projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-section__project {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 50px 15px 50px;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
-    width: 560px;
-    float: right;
-    /*margin-right: 143px;*/
+    max-width: 560px;
 }
 
 .project-section__title {
@@ -83,11 +102,6 @@
     border-radius: 5px;
 }
 
-.project-section__project {
-    width: 80%;
-    margin: auto;
-}
-
 .project-section__project-name {
     font-size: 23px;
     margin: 0px;
@@ -100,6 +114,18 @@
 
 .project-section__img {
     width: 500px;
+}
+
+@media (max-width: 500px) {
+    .project-section__descrip {
+        font-size: 20px;
+        text-align: justify;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .project-section__img {
+        width: 280px;
+    }
 }
 
 /*SECCIÓN DE CONTACTO*/

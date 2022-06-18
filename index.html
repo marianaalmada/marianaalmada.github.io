@@ -11,45 +11,73 @@
 </head>
 <body>
     <header class="header">
-        <ul class="header__ul">
-            <li class="header__link"><a href="http://github.com" target="_blank"><i class="fa-brands fa-github header-icon"></i></a></li>
-            <li class="header__link"><a href="http://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin header-icon"></i></a></li>
-        </ul>
+        <div class="header__nav">
+            <ul class="header__menu">
+                <li><a href="">Skills</a></li>
+                <li><a href="">Proyectos</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+            <ul class="header__ul">
+                <li class="header__link"><a href="http://github.com" target="_blank"><i
+                            class="fa-brands fa-github header-icon"></i></a></li>
+                <li class="header__link"><a href="http://linkedin.com" target="_blank"><i
+                            class="fa-brands fa-linkedin header-icon"></i></a></li>
+            </ul>
+        </div>
         <h2 class="header__title">Hola! mi nombre es Mariana Almada</h1>
         <p class="header__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aperiam, quaerat esse quisquam facilis soluta</p>
     </header>
-    <section class="skills-section">
+    <div class="skills-section">
         <h3 class="skills-section__title">Tecnologías con las que trabajo:</h3>
         <ul class="skills-section__list">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-            <li>java</li>
-            <li>spring framework</li>
-            <li>sql</li>
+            <li>
+                <img src="icons/html-icon.png" alt="">
+            </li>
+            <li>
+                <img src="icons/css-icon.png" alt="">
+            </li>
+            <li>
+                <img src="icons/react-icon.png" alt="">
+            </li>
+            <li>
+                <img src="icons/java-icon.png" alt="">
+            </li>
+            <li>
+                <img src="icons/sql-icon.png" alt="">
+            </li>
         </ul>
-    </section>
+    </div>
     <section class="project-section">
         <h3 class="project-section__title">Proyectos</h3>
-        <div class="project-section__div">
+        <div class="project-section__projects">
             <div class="project-section__project">
                 <img src="imagenes/gray-image.png" alt="" class="project-section__img">
                 <div class="flex-container">
-                    <div><h6 class="project-section__project-name">Nombre del projecto 1</h6></div>
-                    <div><p class="project-section__descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure ipsam assumenda obcaecati, cumque voluptate vero unde similique repudiandae laborum architecto maxime minus animi magnam! Atque minima quasi magnam accusantium.</p></div>
+                    <div>
+                        <h6 class="project-section__project-name">Nombre del projecto 1</h6>
+                    </div>
+                    <div>
+                        <p class="project-section__descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure
+                            ipsam assumenda obcaecati, cumque voluptate vero unde similique repudiandae laborum architecto
+                            maxime minus animi magnam! Atque minima quasi magnam accusantium.</p>
+                    </div>
                     <div><a href="" class="project-section__link">Github</a></div>
                 </div>
-                <hr class="project-section__line"> 
             </div>
-            <div class="project-section__div">
-                <div class="project-section__project">
-                    <img src="imagenes/gray-image.png" alt="" class="project-section__img">
-                    <div class="flex-container">
-                        <div><h6 class="project-section__project-name">Nombre del projecto 2</h6></div>
-                        <div><p class="project-section__descrip">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quia nostrum aliquam, unde consequuntur adipisci eos eveniet totam doloremque quidem illo tenetur sapiente nam vel placeat, hic sint inventore ea?</p></div>
-                        <div><a href="" class="project-section__link">Github</a></div>
+            <div class="project-section__project">
+                <img src="imagenes/gray-image.png" alt="" class="project-section__img">
+                <div class="flex-container">
+                    <div>
+                        <h6 class="project-section__project-name">Nombre del projecto 2</h6>
                     </div>
+                    <div>
+                        <p class="project-section__descrip">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
+                            quia nostrum aliquam, unde consequuntur adipisci eos eveniet totam doloremque quidem illo tenetur
+                            sapiente nam vel placeat, hic sint inventore ea?</p>
+                    </div>
+                    <div><a href="" class="project-section__link">Github</a></div>
                 </div>
+            </div>
         </div>
     </section>
     <footer class="footer">
