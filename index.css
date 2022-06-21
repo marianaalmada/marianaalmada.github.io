@@ -2,13 +2,14 @@
 
 .header {
     background-color: black;
-    height: 450px;
+    min-height: 380px;
 }
 
 .header__nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 .header__menu {
@@ -38,15 +39,17 @@
 }
 
 .header__paragraph {
-    text-align: center;
+    text-align: justify;
     color: white;
-    margin: 0px 90px 0px 90px;
+    margin: 30px 50px 0px 50px;
 }
 
 /*SECCIÓN SKILLS*/
 
 .skills-section {
-    min-height: 400px;
+    min-height: 270px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,6 +58,8 @@
 
 .skills-section__title {
     font-size: 30px;
+    margin: 0px;
+    margin-bottom: 55px;
 }
 
 .skills-section__list {
@@ -67,7 +72,7 @@
 /*SECCIÓN PROYECTOS*/
 
 .project-section {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .project-section__projects {
@@ -86,13 +91,14 @@
     display: flex;
     flex-direction: column;
     max-width: 560px;
+    margin: 20px;
 }
 
 .project-section__title {
     text-align: center;
     font-size: 30px;
     margin-top: 0px;
-    margin: 0px 0px 75px;
+    margin: 0px 0px 55px;
 }
 
 .project-section__link {
@@ -100,6 +106,10 @@
     background-color: rgb(180, 179, 179);
     padding: 7px 10px 7px 10px;
     border-radius: 5px;
+}
+
+.project-section__button {
+    margin-top: 10px;
 }
 
 .project-section__project-name {
@@ -116,7 +126,7 @@
     width: 500px;
 }
 
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
     .project-section__descrip {
         font-size: 20px;
         text-align: justify;
@@ -126,12 +136,12 @@
     .project-section__img {
         width: 280px;
     }
-}
+}*/
 
 /*SECCIÓN DE CONTACTO*/
 .footer {
     background-color: black;
-    height: 300px;
+    height: 245px;
 }
 
 .footer__title {
