@@ -134,6 +134,11 @@
     text-align: justify;
 }
 
+span {
+    line-height: 2em;
+    color: cadetblue;
+}
+
 .project-section__img {
     width: 500px;
 }
