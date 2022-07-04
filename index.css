@@ -1,7 +1,7 @@
 /*HEADER*/
 
 .header {
-    background-color: black;
+    background-color: #D9BFB1;
     min-height: 380px;
 }
 
@@ -13,26 +13,18 @@
 }
 
 .header__menu {
+    list-style-type: none;
     font-family: 'Average Sans', sans-serif;
     font-size: 18px;
     display: flex;
     gap: 15px;
+    color: #AE8878;
 }
 
-.header__ul {
-    list-style-type: none;
-    text-align: right;
-    display: flex;
-    gap: 15px;
-}
+.header__menu li a{
+    text-decoration: none;
+    color: #5E5946;
 
-.header__ul li a {
-    color: black;
-}
-
-.header-icon {
-    font-size: 50px;
-    color: white;
 }
 
 .header__title {
@@ -67,6 +59,7 @@
     font-size: 26px;
     margin: 0px;
     margin-bottom: 55px;
+    color: #5E5946;
 }
 
 .skills-section__list {
@@ -79,7 +72,9 @@
 /*SECCIÓN PROYECTOS*/
 
 .project-section {
-    margin-bottom: 50px;
+    padding-top: 47px;
+    padding-bottom: 50px;
+    background-color: #E7E5D9;
 }
 
 .project-section__projects {
@@ -107,13 +102,15 @@
     font-size: 26px;
     margin-top: 0px;
     margin: 0px 0px 55px;
+    color: #5E5946;
 }
 
 .project-section__link {
     color: white;
-    background-color: rgb(180, 179, 179);
+    background-color: #AE8878;
     padding: 7px 10px 7px 10px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .project-section__button {
@@ -126,17 +123,19 @@
     font-family: 'Rufina', serif;
     font-size: 23px;
     margin: 0px;
+    color: #5E5946;
 }
 
 .project-section__descrip {
     font-family: 'Average Sans', sans-serif;
     font-size: 20px;
     text-align: justify;
+    color: #5E5946;
 }
 
 span {
     line-height: 2em;
-    color: cadetblue;
+    color: #AE8878;
 }
 
 .project-section__img {
@@ -157,25 +156,28 @@ span {
 
 /*SECCIÓN DE CONTACTO*/
 .footer {
-    background-color: black;
+    background-color: #D9BFB1;
     height: 245px;
 }
 
 .footer__title {
     font-family: 'Rufina', serif;
     text-align: center;
-    color: white;
+    color: #5E5946;
     font-size: 26px;
     padding: 47px 0px 35px 0px;
     margin: 0;
 }
 
 .footer__contact-links {
-    text-align: center;
     list-style-type: none;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
-.footer__contact-links li, a {
-    text-decoration: none;
-    color: white
+.header-icon {
+    font-size: 50px;
+    color: white;
 }
