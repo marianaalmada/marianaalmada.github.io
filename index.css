@@ -19,16 +19,23 @@
 .header__menu {
     list-style-type: none;
     font-family: 'Average Sans', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     display: flex;
     gap: 15px;
     color: #AE8878;
 }
 
+.header__menu li:hover {
+    font-size: 21px;
+}
+
+.header__menu a:hover {
+    color: white;
+}
+
 .header__menu li a{
     text-decoration: none;
     color: #5E5946;
-
 }
 
 .header__title {
