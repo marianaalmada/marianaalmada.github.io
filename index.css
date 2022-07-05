@@ -177,7 +177,7 @@ span {
     gap: 15px;
 }
 
-.header-icon {
+.footer__link a {
     font-size: 50px;
     color: white;
 }
